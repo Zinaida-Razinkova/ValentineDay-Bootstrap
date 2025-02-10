@@ -14,7 +14,7 @@ section {
 
 header {
     padding: 250px 0;
-    background: url(../image/img002.jpg), linear-gradient(90deg, rgba(255, 205, 234, 1) 0%, rgba(252, 72, 73, 1) 100%);
+    background: url(../image/img002.jpg), linear-gradient(90deg, rgba(255, 205, 234, 1) 0%, var(--primary-color) 100%);
     background-size: cover;
     background-repeat: no-repeat;
 }
