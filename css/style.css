@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #dc3545;
+    --bg1:#e6e6e6;
+    --bg2: #f9f9f9;
+
+}
+
+section {
+    padding: 100px 0;
+}
+
+/* ====================================== */
+
+
+header {
+    padding: 250px 0;
+    background: url(../image/img002.jpg), linear-gradient(90deg, rgba(255, 205, 234, 1) 0%, rgba(252, 72, 73, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__title {
+    font-size: 70px;
+}
+
+.title {
+    font-family: "Parisienne", serif;
+    font-weight: 600;
+}
+
+.header__button {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+
+/* ====================================== */
+
+.how,
+.love,
+.card {
+    background-color: var(--bg1);
+}
+
+.about,
+.ideas,
+.reviews {
+    background-color: var(--bg2);
+}
+
+/* ====================================== */
+
+.about__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.about i {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.about__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+.about__line {
+    width: 100px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: 15px auto;
+}
+
+/* ====================================== */
+
+.how h4 {
+    padding: 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+}
+
+/* ====================================== */
+.accordion-button,
+.accordion-body {
+    background-color: var(--bg2);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+    background-color: var(--bg2);
+}
+
+/* ====================================== */
+
+.love h5 {
+    padding: 25px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+}
+
+/* ====================================== */
+.reviews img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* ====================================== */
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--primary-color);
+}
+
+.footer i {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.footer .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-light {
+    color: var(--bg1);
+    border-color: var(--bg1);
+}
